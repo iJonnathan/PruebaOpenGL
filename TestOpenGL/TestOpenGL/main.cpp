@@ -68,19 +68,19 @@ int main(int argc, char **argv){
     // los parámetros de glutSubWindow: glContenedor,posX, posY, Ancho y Alto
     ventanaGL1 = glutCreateSubWindow(ventanaGLMain, 10, 10, 90, 90);
     glutDisplayFunc(pantalla);
-    glClearColor(0.0, 0.0, 0.0, 1.0);
+    glClearColor(1.0, 0.0, 0.0, 1.0);
     
     ventanaGL2 = glutCreateSubWindow(ventanaGLMain, 110, 10, 90, 90);
     glutDisplayFunc(pantalla);
-    glClearColor(0.0, 0.0, 0.0, 1.0);
+    glClearColor(0.0, 1.0, 0.0, 1.0);
     
     ventanaGL3 = glutCreateSubWindow(ventanaGLMain, 10, 110, 90, 90);
     glutDisplayFunc(pantalla);
-    glClearColor(0.0, 0.0, 0.0, 1.0);
+    glClearColor(0.0, 0.0, 1.0, 1.0);
     
     ventanaGL4 = glutCreateSubWindow(ventanaGLMain, 110, 110, 90, 90);
     glutDisplayFunc(pantalla);
-    glClearColor(0.0, 0.0, 0.0, 1.0);
+    glClearColor(1.0, 1.0, 0.0, 1.0);
     
     // Procesa los eventos de la ventana GLUT
     glutMainLoop();
